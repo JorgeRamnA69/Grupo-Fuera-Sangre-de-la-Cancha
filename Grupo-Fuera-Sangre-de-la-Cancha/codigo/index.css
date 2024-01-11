@@ -1,0 +1,22 @@
+#usuario{
+    display: flex;
+    flex-direction: row;
+}
+#opciones{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.usuario{
+    border-radius: 5px;
+    margin: 5px;
+}
+.opciones{
+    margin: 5px;
+}
+p{
+    margin: 0px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>trabajo registro</title>
+        <link rel="stylesheet" href="/codigo/index.css">
+        <link rel="stylesheet" href="/codigo/inicio.css">
+        <link rel="stylesheet" href="/codigo/InicioSesion.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="contenedor">
+                <ul class="nav-list">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="InicioSesion.html">Inicio de Sesion</a></li>
+                    <li><a href="Registro.html" >Registro</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="Titulo">
+            <div id="form">
+                <form method="get" action="action.php" target="_blank">
+                    <div id="usuario">
+                        <label for="nombre">
+                            <input class="usuario" name="nombre" placeholder="Nombre" type="text" required>
+                        </label>
+                        <label for="contrasenia">
+                            <input class="usuario" name="contrasenia" placeholder="Contraseña" type="password" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="correo">
+                            <input class="usuario" name="correo" placeholder="Correo" type="email" required>
+                        </label>
+                    </div>
+                        <h2>Genero</h2>
+                        <div id="opciones">
+                            <label class="opciones" for="Hombre">
+                                <p>Hombre</p>
+                                <input type="radio" id="Hombre" name="opciones" value="Hombre">
+                            </label>
+                            <label class="opciones" for="Mujer">
+                                <p>Mujer</p>
+                                <input type="radio" id="Mujer" name="opciones" value="Mujer">
+                            </label>
+                        </div>
+                    <button type="submit">Enviar</button>
+    
+                </form>
+            </div>
+        </section>
+
+    </body>
+</html>
